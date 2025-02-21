@@ -8,4 +8,3 @@ HTML – Structure and content of the website
 
 CSS – Styling and layout, including animations
 
-https://atharvaj-236.github.io/Portfolio/
