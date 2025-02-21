@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background-color: #f3f4f6;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #002244;
+    padding: 20px;
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #f1b04c;
+    text-decoration: none;
+}
+
+.projects-section strong{
+    font-size: 25px;
+    font-family: Times New Roman;
+    color: #f1b04c;
+}
+
+.about-section,
+.projects-section{
+    padding: 50px;
+    background-color: #003366;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-section{
+    padding: 50px;
+    background-color: #003366;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-section h1,
+.projects-section h1,
+.contact-section h1 {
+    font-size: 30px;
+    font-family: Times New Roman;
+    color: #f1b04c;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.projects-section .project-name {
+    color: grey;
+    font-weight: bold;
+}
+
+.about-section u {
+    color: #f1b04c;
+    text-decoration: none;
+}
+
+.about-section u:hover {
+    color: #e6b800;
+}
+
+.cv-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1b04c;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cv-btn:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #002244;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
